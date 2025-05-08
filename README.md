@@ -4,6 +4,8 @@ Does the U.S. migrant mortality advantage vary by region of birth?
 The following code is used to run the models and generate tables and figures for my second year paper, "Does the U.S. migrant mortality advantage vary by region of birth?"
 Note, the code in 100_data_cleaning includes a portion where we take a 25% sample due to computational intensiveness of running the models. To see the actual results from the paper, comment this line out.
 
+To replicate this code, download NHIS-LMF data for years 2000-2018 from iPUMS, being sure to include the following variables: REGIONBR, RACENEW, HISPETH, USBORN, YRSINUSG, YEAR, AGE, SEX, CITIZEN, EDUC, MARSTATCOHAB, INTERVWYR, INTERVWMO, BIRTHYR, BIRTHMO, MORTDODY, MORTDODQ, MORTELIG, MORTSTAT, MORTWT, MORTWTSA
+
 Each X00 document sets the global directory - change this to fit your own directory
 
 Naming convention
